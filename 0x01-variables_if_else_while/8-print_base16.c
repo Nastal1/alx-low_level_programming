@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(y);
 	}
-	for (alpha = 'a; alpha <= 'f'; alpha++)
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
 	{
 		putchar(alpha);
 	}
