@@ -8,7 +8,6 @@
  * Description: 'Print alphabets in lower and upper case'
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char alpha;
