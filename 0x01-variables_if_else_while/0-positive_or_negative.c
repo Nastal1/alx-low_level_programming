@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-7	int n;
+7	int n;
 	srand(time(0));
 	n =rand()-RAND_MAX/2;
 	if (n>0)
