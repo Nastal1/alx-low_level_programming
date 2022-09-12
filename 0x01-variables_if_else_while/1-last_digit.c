@@ -1,14 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * betty style doc for function main goes there
-*/
-
-/*
- * main - Entry point
- * Description: 'assign variable numbers to the value of n'
- * Return: Always 0 (Success)
+/**
+ * main - Entry point
+ * Description: 'assigning variables randomly to n'
+ * Return: Always 0 (Success)
 */
 
 int main(void)
@@ -22,6 +18,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	r = n % 10;
 
+	printf("Last digit of %d is %d\n", n, r);
 	if (n > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, r);
