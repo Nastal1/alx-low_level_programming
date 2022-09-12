@@ -1,5 +1,9 @@
 #include <stdio.h>
 /*
+ * Betty document style goes here
+*/
+
+/*
  * main - entry point
  * Description: 'Print alphabets in lower and upper case'
  * Return: Always 0 (Success)
