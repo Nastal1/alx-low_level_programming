@@ -7,7 +7,7 @@
 
 /*
  * main - Entry point
- * Description: assign variable numbers to the value of n
+ * Description: 'assign variable numbers to the value of n'
  * Return: Always 0 (Success)
 */
 
