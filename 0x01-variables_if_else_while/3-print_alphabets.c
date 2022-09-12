@@ -3,9 +3,9 @@
  * betty style doc for function main goes here
 */
 
-/*
- * main - entry point
- * Description: 'Print alphabets in lower and upper case'
+/**
+ * main - Entry point
+ * Description: 'Aa Zz'
  * Return: Always 0 (Success)
  */
 int main(void)
