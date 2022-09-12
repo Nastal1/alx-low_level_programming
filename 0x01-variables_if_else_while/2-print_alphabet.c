@@ -5,7 +5,7 @@
 
 /**
  * main - Entry point
- * Description: 'value of alpha in alphabeths' 
+ * Description: 'value of alpha in alphabeths'
  * Return: Always 0 (Success)
 */
 int main(void)
