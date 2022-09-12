@@ -13,8 +13,8 @@ int main(void)
 {
 	int alpha;
 
-	alpha = 78;
-	while (alpha < 88)
+	alpha = 48;
+	while (alpha < 58)
 	{
 		putchar(alpha);
 		alpha++;
