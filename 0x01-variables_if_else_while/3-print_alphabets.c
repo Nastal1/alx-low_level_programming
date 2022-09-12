@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * Betty document style goes here
+ * betty style doc for function main goes here
 */
 
 /*
