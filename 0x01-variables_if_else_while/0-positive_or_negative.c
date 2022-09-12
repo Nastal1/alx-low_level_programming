@@ -1,7 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*This is he main function*/
+
+/**
+ * main - Entry point
+ * Description: 'assign variable number to the variable n'
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
@@ -15,16 +20,13 @@ int main(void)
 	{
 		printf("%i is is positive\n", n);
 	}
-
 	else if (n == 0)
 	{
 		printf("%i is zero\n", n);
 	}
-
 	else if (n < 0)
 	{
 		printf("%i is negative\n", n);
 	}
-
 	return (0);
 }
