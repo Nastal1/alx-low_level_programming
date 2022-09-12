@@ -1,4 +1,8 @@
 #include <stdio.h>
+/*
+ * betty style doc for function main goes there
+*/
+
 /**
  * main - Entry point
  * Description: 'value of alpha in alphabeths' 
