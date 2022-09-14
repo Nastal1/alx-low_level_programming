@@ -4,7 +4,7 @@
  * @e: character to test
  * Return: 1 if it is a lower case or 0 if it if not
 */
-void _islower(int e)
+int _islower(int e)
 {
 	if (e <= 'a' && e <='z')
 	{
