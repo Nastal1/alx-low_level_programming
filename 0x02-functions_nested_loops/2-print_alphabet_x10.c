@@ -6,6 +6,7 @@
  * Description: 'the program prints all alphabrts x10'
  * Return: void
 */
+void print_alphabet_x10();
 
 void print_alphabet_x10(void)
 {
