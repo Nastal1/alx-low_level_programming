@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * _isalpha - prints 1 or 0 depending on input
- * @c: collects a char type
+ * _isalpha - prints one or zero depending on input
+ * @c: collects a char type
  * Description: Checks for alphabets lower and uppercase
  * Return: Always(0)
 */
