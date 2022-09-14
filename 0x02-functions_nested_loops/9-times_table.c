@@ -17,7 +17,7 @@ void times_table(void)
 				_putchar(48);
 				continue;
 			}
-			product = i * j;
+			item = i * j;
 			_putchar(' ');
 			_putchar(' ');
 			if (item >= 10)
