@@ -5,8 +5,6 @@
  * Description: 'the program prints all alphabrts x10'
  * Return: Nothing
 */
-_putchar(void);
-Priny_alphabet_x10;
 
 void Print_alphabet_x10(void)
 {
@@ -17,8 +15,8 @@ void Print_alphabet_x10(void)
 	{
 		for (c = 'a'; c < 'z'; c++)
 		{
-			_putchar(c);
+			putchar(c);
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
