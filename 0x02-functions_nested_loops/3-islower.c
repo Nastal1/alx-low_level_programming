@@ -1,7 +1,7 @@
 /**
  * _islower- tests whether a charactrr is a
  * lowercase letter from the english alphabet
- * @e: character to test
+ * @c: character to test
  * Return: 1 if it is a lower case or 0 if it if not
 */
 int _islower(int e)
