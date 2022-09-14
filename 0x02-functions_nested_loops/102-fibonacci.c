@@ -27,6 +27,6 @@ int main(void)
 			sec_count = next_num;
 		}
 	}
-	printf('%d');
+	printf("\n");
 	return (0);
 }
