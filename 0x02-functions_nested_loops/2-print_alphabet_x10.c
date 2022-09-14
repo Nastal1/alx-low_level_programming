@@ -11,9 +11,9 @@ void Print_alphabet_x10(void)
 	int i = 0;
 	char c = 'a';
 
-	for ( i < 10;)
+	for ( i = 9; i < 10; i++;)
 	{
-		for (c < 'z';)
+		for (c = 'a'; < 'z'; c++;)
 		{
 			putchar(c);
 		}
