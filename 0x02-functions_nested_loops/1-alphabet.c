@@ -4,7 +4,7 @@
  * print_alphabeth - function that prints a-z in lowercase followed by a new line'
  * Return: Always 0 (Success)
 */
-int main(void)
+void print_alphabet(void)
 {
 	char alpha = 'a';
 
@@ -14,5 +14,4 @@ int main(void)
 		alpha++;
 	}
 	_putchar('\n');
-	return (0);
 }
