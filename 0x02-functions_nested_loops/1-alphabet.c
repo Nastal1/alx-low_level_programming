@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: 'prints a-z in lowercase followed by a new line'
+ * print_alphabeth - function that prints a-z in lowercase followed by a new line'
  * Return: Always 0 (Success)
 */
 int main(void)
@@ -11,9 +10,9 @@ int main(void)
 
 	while (alpha < 'z')
 	{
-		putchar(alpha);
+		_putchar(alpha);
 		alpha++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
