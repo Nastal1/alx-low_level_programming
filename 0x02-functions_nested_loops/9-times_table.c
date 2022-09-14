@@ -20,15 +20,15 @@ void times_table(void)
 			product = i * j;
 			_putchar(' ');
 			_putchar(' ');
-			if (product >= 10)
+			if (item >= 10)
 			{
-				_putchar(product / 10 + 48);
-				_putchar(product % 10 + 48);
+				_putchar(item / 10 + 48);
+				_putchar(item % 10 + 48);
 			}
 			else
 			{
 				_putchar(' ');
-				_putchar(product + 48);
+				_putchar(item + 48);
 			}
 		}
 		_putchar('\n');
