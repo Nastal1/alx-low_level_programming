@@ -17,8 +17,8 @@ int main(void)
 	{
 		if (i == 1)
 		{
-			printf(",");
 			printf("%d", first_count);
+			printf(",");
 		}
 		else
 		{
