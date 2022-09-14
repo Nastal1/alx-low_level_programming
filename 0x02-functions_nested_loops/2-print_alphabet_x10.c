@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_alphabet_x10 - Entry point
  * Description: 'the program prints all alphabrts x10'
