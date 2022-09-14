@@ -17,11 +17,12 @@ int main(void)
 	{
 		if (i == 1)
 		{
-			printf("%d", ",", first_count);
+			printf("%d", first_count);
 		}
 		else
 		{
-			printf("%d", ",", first_count);
+			printf(",");
+			printf("%d", first_count);
 			next_num = first_count + sec_count;
 			first_count = sec_count;
 			sec_count = next_num;
