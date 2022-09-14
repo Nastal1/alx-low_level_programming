@@ -3,7 +3,7 @@
 /**
  * Print_alphabet_x10 - Entry point
  * Description: 'the program prints all alphabrts x10'
- * Return: Nothing
+ * Return: void
 */
 
 void Print_alphabet_x10(void)
@@ -11,7 +11,7 @@ void Print_alphabet_x10(void)
 	int i = 0;
 	char c = 'a';
 
-	for ( i = 9; i < 10; i++)
+	for (i = 9; i < 10; i++)
 	{
 		for (c = 'a'; c < 'z'; c++)
 		{
