@@ -5,6 +5,8 @@
  * Description: 'the program prints all alphabrts x10'
  * Return: Nothing
 */
+_putchar();
+
 void Print_alphabet_x10(void)
 {
 	int i;
