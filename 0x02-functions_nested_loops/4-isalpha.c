@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype>
 /**
  * _isalpha - prints 1 or 0 depending on input
  * @c: collects a char type
