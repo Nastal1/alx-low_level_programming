@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_alphabeth - Entry
- * Description: 'prints a-z in lowercase followed by a new line'
+ * print_alphabet - prints a-z in lowercase followed by a new line
+ *Description: 'prints new line'
  * Return: Nothing
 */
 void print_alphabet(void)
