@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * Print_alphabet_x10 - Entry point
+ * print_alphabet_x10 - Entry point
  * Description: 'the program prints all alphabrts x10'
  * Return: void
 */
