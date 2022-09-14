@@ -17,6 +17,7 @@ int main(void)
 	{
 		if (i == 1)
 		{
+			printf(",");
 			printf("%d", first_count);
 		}
 		else
@@ -27,7 +28,6 @@ int main(void)
 			sec_count = next_num;
 		}
 	}
-	printf(",");
 	printf("\n");
 	return (0);
 }
