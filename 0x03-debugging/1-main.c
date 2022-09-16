@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
  * main - cause an infinite loop
- * Returm: 0
+ * Return: 0
 */
-int main(voi)
+int main(void)
 {
 	int i;
+
 	printf("infinite loop incoming: ('\n')");
 
-	i= 0;
+	i = 0;
 	/**
 	 * while (i < 10)
 	 * {
@@ -17,5 +18,5 @@ int main(voi)
 	 * }
 	 */
 	printf("infinite loop avoide! \\o/\n");
-	retutn (0);
+	retutn(0);
 }
