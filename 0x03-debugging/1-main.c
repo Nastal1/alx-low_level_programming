@@ -15,7 +15,7 @@ int main(void)
  * }
  * putchar(i);
  * missing variable increment
- * @\\o/\n: parameter
+ *@\\o/\n: member
  * }
  */
 	printf("Infinite loop avoided! \\o/\n");
