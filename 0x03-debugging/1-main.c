@@ -10,14 +10,14 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-/**
- * while (i < 10) - loop
- * }
- * putchar(i);
- * missing variable increment
- *@\\o/\n: member
- * }
+
+	while (i < 10)
+{
+	i++ /**
  */
+		putchar(i);
+}
+}
 	printf("Infinite loop avoided! \\o/\n");
 	return (0);
 }
