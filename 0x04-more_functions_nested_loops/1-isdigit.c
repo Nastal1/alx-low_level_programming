@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _isdigit - checks to see it is a dogit or alphabeth
  * Description: prints digit using _putchar
