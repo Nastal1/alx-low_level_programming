@@ -1,14 +1,12 @@
- /**
-  * _atoi - Convert string to an integer.
-  * @s: Pointer to a character string.
-  * Return: void.
-  */
-int _atoi(char *s)
+/**
+ * _atoi - converts string to an interger
+ * @s: pointer to a character string
+ * Return: void
+ */
+int _atoi(char *s)
 {
-	int sign;
-
-	unsigned int num;
-
+	int sign;
+	unsigned int num;
 	char *temp;
 
 	temp = s;
@@ -16,7 +14,7 @@ int _atoi(char *s)
 	sign = 1;
 	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 	{
-		if (*temp == '-')
+		if (*temp == '-')
 			sign *= -1;
 		temp++;
 	}
@@ -26,9 +24,7 @@ int _atoi(char *s)
 			num = num * 10 + (*temp - '0');
 			temp++;
 		}
-		while (*temp < '0' && *temp <= '9')
-		{
-		}
+		while (*temp >= '0' && *temp <= '9');
 	}
 	return (num * sign);
 }
