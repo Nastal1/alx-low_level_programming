@@ -1,4 +1,7 @@
 #include "main.h"
+#include "main_0.c"
+#include "main_1.c"
+#include "main_2.c"
 #include <stdio.h>
 /**
  * rev_string - function prints a string reverser
