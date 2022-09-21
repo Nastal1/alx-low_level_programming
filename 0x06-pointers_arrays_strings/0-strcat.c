@@ -5,20 +5,20 @@
  * @src: this is the input src
  * Return: This return to dest, that concatenates two string
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *s1, char *s2)
 {
 	int i, j;
 
 	i = 0;
 	j = 0;
-	while (*(dest + i) != '\0')
+	while (*(s1 + i) != '\0')
 		i++;
-	while (*(src + j) != '\0' && i < 97)
+	while (*(s2 + j) != '\0' && i < 97)
 	{
-		*(dest + i) = *(src + j);
+		*(s1 + i) = *(s2 + j);
 		i++;
 		j++;
 	}
-	*(dest + i) = '\0';
-	return (dest);
+	*(s1 + i) = '\0';
+	return (s1);
 }
