@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * wildcmp - compares 2 strings, considering wildcard characters
- * postfix_match - return length of a string
- * iterate_wild - iterate through a string locate
  * @s1: first string to be compared
  * @s2: second string to be compared. may contain wildcards
  * Return: If the strings can be considered identical - 1.
