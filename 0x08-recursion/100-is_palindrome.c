@@ -2,32 +2,43 @@
 /**
  * palind2 - obtains length of a
  * @a: string
- * @l: integer to count length
  * Return: on Success 1
  * on err, -1 is returned
  * and err no is set appropriately
  */
-int palind2(char *a, int l)
+int palind2(char *s)
 {
-	if (*a == 0)
-		return (l - 1);
-	return (palind2(a + 1, l + 1));
+	if (*s == '\0')
+		return (0);
+	return (1 + palind2(s + 1));
 }
 /**
  * palind3 - compares strings versus strings reverse
- * @a: string
+ * @i: index
  * @l: length
+ * @s: string
  * Return: on Success 1
  * on err, -1 is returned
  * and err no is set appropriately
  */
-int palind3(char *a, int l)
+int palind3(int i, int l, char *s)
 {
-	if (*a != *(a + 1))
+	if (l > 0)
+	{
+		if (s[i] == s[l])
+		{
+			return (palind3(i + 1, l - 1, s));
+		}
+	else if (s[i] != s[l])
+	{
 		return (0);
-	else if (*a == 0)
-		return (1);
-	return (palind3(a + 1, l - 2));
+	}
+		else
+		{
+			return (1);
+		}
+	}
+	return (1);
 }
 /**
  * is_palindrome - checks if a string is a palindromr
@@ -38,8 +49,5 @@ int palind3(char *a, int l)
  */
 int is_palindrome(char *s)
 {
-	int l;
-
-	l = palind2(s, 0);
-	return (palind3(s, l));
+	return (palind3(0, palind2(s) - 1, s));
 }
