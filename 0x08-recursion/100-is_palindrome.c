@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * palind2 - obtains length of a
- * @a: string
+ * @s: string
  * Return: on Success 1
  * on err, -1 is returned
  * and err no is set appropriately
