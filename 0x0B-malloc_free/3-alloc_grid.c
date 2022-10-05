@@ -6,7 +6,8 @@
  * integers.
  * @width: This is the columns of the array
  * @height: This is the rows of the array
- * Return: Returns a pointer to a 2 dimensional array of integers.
+ * Return: Returns a pointer to a
+ * 2 dimensional array of integers.
  * The function should return NULL on failure
  * If width or height is 0 or negative, return NULL
  */
