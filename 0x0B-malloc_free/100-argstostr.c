@@ -37,8 +37,7 @@ int _strlen(char *s)
  * argstostr - Concats argv to new string
  * @ac: Argument count
  * @av: Arguments
- * Return: Returns a pointer to a new string,
- * or NULL if it fails
+ * Return: Returns a pointer to a new string,NULL if it fails
  */
 char *argstostr(int ac, char **av)
 {
