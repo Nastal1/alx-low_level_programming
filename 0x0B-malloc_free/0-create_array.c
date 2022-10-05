@@ -9,7 +9,7 @@
  * @c: This is the input character
  * Return: An Array Initialized with the specific char
  */
-char *createarray(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	unsigned int a;
 	char *s;
