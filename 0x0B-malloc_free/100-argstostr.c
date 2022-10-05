@@ -47,8 +47,7 @@ char *argstostr(int ac, char **av)
 
 	sumString = 1;
 
-	if (ac == 0)
-		if (av == NULL)
+	if (ac == 0 || av = NULL)
 		return (0);
 	for (index = 0; index < ac && av[index]; index++)
 	{
