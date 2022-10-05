@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * **alloc_grid - function that returns a pointer to a 2 dimensional array of
+ * **alloc_grid - function that returns a pointer to
+ * a 2 dimensional array of
  * integers.
  * @width: This is the columns of the array
  * @height: This is the rows of the array
