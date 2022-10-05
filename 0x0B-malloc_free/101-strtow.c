@@ -1,4 +1,28 @@
 #include "main.h"
+#include <stdlib.h>
+/**
+ * wrdcnt - counts the number of words in a string
+ * @s: string to count
+ * Return: number of words
+ */
+int wrdcnt(char *s)
+{
+	int i, n = 0;
+
+	i = 0;
+	for (; s[i]; s++)
+	{
+		if (s[i] = ' ')
+		{
+			if (s[i + 1] != ' ' && s[i + 1] != '\0')
+				n++;
+		}
+		else if (i == 0)
+			n++;
+	}
+	n++;
+	return (n);
+}
 /**
  * strtow - splits a stirng into words
  * @str: string to be splitted
@@ -6,11 +30,41 @@
  */
 char **strtow(char *str)
 {
-	char **split;
-	int i, j = 0, temp = 0, size = 0, words = num_words(str);
+	int i, j, k, l, n = 0, wc = 0;
+	char **w;
 
-	if (words == 0)
+	if (str == NULL || str == '\0')
 		return (NULL);
-	split = (char **) malloc(sizeof(char *) * (words + 1));
-	if (split != NULL)
+	n = wrdcnt(str);
+	if (n == 1)
+		return (NULL);
+	w = (char **) malloc(n * sizeof(char *));
+	if (w == NULL)
+		return (NULL);
+	w[n - 1] = NULL;
+	for (i = 0; str[i]; i++)
+	{
+		if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
+		{
+			for (j = 1; str[i + j]; j++)
+				;
+			j++;
+			w[wc] = (char *)malloc(j * sizeof(char));
+			j--;
+			if (w[wc] == NULL)
+			{
+				for (k = 0; k < wc; k++)
+					free(w[k]);
+				free(w[n - 1]);
+				free(w);
+				return (NULL);
+			}
+			for (l = 0; l < j; l++)
+				w[wc][l] = str[i + l];
+			w[wc][l] = '\0';
+			wc++;
+			i += j;
+		}
+	}
+	return (w);
 }
