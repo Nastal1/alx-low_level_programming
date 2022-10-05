@@ -1,6 +1,20 @@
 #include "main.h"
 #include <stddef.h>
 /**
+ * len - returns length of str
+ * @str: string counted
+ * Return: returns the length
+ */
+int len(char *str)                                    {
+        int len = 0;
+        if (str != NULL)
+        {
+                while (str[len])
+                        len++;
+        }
+        return (len);
+}
+/**
  * argstostr - Concats argv to new string
  * @ac: Argument count
  * @av: Arguments
@@ -35,20 +49,4 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	}
 	return (newString);
-}
-/**
- * len - returns length of str
- * @str: string counted
- * Return: returns the length
- */
-int len(char *str)
-{
-	int len = 0;
-
-	if (str != NULL)
-	{
-		while (str[len])
-			len++;
-	}
-	return (len);
 }
